@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JTGeats — Authentic Home Food Delivery</title>
+  <meta name="description"
+    content="JTGeats is a courier service delivering authentic home cooked food right to your doorstep." />
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="assets/vendor/swiper-bundle.min.css" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- ======== HEADER ======== -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo">
+        <img src="assets/svgs/jtheats.svg" alt="JTGeats Logo" />
+      </a>
+      <button class="header__hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav" id="main-nav">
+        <a href="#hero">Home</a>
+        <a href="#kitchen">About</a>
+        <a href="#popular">Menu</a>
+        <a href="#video-section">Blog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header__actions">
+        <img src="assets/svgs/search.svg" alt="Search" />
+        <div class="header__cart-wrapper">
+          <img src="assets/svgs/ordered.svg" alt="Cart" />
+          <span class="header__cart-badge"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero" id="hero">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <div class="hero__text-group">
+          <h1 class="hero__title">Authentic Home food in India</h1>
+          <p class="hero__subtitle">JTGeats is a courier service in which authentic home cook food is delivered to a
+            customer.</p>
+        </div>
+        <div class="hero__search">
+          <input type="text" placeholder="Search food you love" id="hero-search" />
+          <button class="hero__search-btn" type="button">Search</button>
+        </div>
+      </div>
+      <div class="hero__illustration">
+        <img src="assets/svgs/cuate.svg" alt="Cooking illustration" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== HOME KITCHEN ======== -->
+  <section class="kitchen" id="kitchen">
+    <div class="kitchen__inner">
+      <h2 class="section-title">Home Kitchen</h2>
+      <div class="kitchen__grid">
+        <!-- Card 1 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-1.png" alt="Home made pizza" />
+            <span class="product-card__badge">50%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-2.png" alt="Home made pizza" />
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹123</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-3.png" alt="Home made pizza" />
+            <span class="product-card__badge">20%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 4 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-4.png" alt="Home made pizza" />
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 5 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-5.png" alt="Home made pizza" />
+            <span class="product-card__badge">50%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 6 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-6.png" alt="Home made pizza" />
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 7 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-7.png" alt="Home made pizza" />
+            <span class="product-card__badge">20%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 8 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-8.png" alt="Home made pizza" />
+            <span class="product-card__badge">50%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Row 3: Repeat of Row 1 -->
+        <!-- Card 9 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-1.png" alt="Home made pizza" />
+            <span class="product-card__badge">50%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 10 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-2.png" alt="Home made pizza" />
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹123</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 11 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-3.png" alt="Home made pizza" />
+            <span class="product-card__badge">20%</span>
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- Card 12 -->
+        <article class="product-card">
+          <div class="product-card__image">
+            <img src="assets/images/home-kitchen-4.png" alt="Home made pizza" />
+          </div>
+          <div class="product-card__details">
+            <div class="product-card__row">
+              <span class="product-card__name">Home made pizza</span>
+              <span class="product-card__price">₹190</span>
+            </div>
+            <div class="product-card__row">
+              <div class="product-card__meta">
+                <span class="product-card__rating">
+                  <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                </span>
+                <span class="product-card__tag">50-79 mins</span>
+              </div>
+              <div class="product-card__add-btn">
+                <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== POPULAR ITEMS CAROUSEL ======== -->
+  <section class="popular" id="popular">
+    <div class="popular__inner">
+      <h2 class="popular__title">Popular Items</h2>
+      <div class="popular__carousel-wrapper">
+        <button class="carousel-arrow carousel-arrow--prev" id="carousel-prev" aria-label="Previous slide">
+          <img src="assets/svgs/left-arrow.svg" alt="Previous" />
+        </button>
+        <div class="swiper popular__carousel" id="popular-swiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img src="assets/images/popular-items-1.png" alt="Home made pizza" />
+                </div>
+                <div class="product-card__details">
+                  <div class="product-card__row">
+                    <span class="product-card__name">Home made pizza</span>
+                    <span class="product-card__price">₹190</span>
+                  </div>
+                  <div class="product-card__row">
+                    <div class="product-card__meta">
+                      <span class="product-card__rating">
+                        <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                      </span>
+                      <span class="product-card__tag">50-79 min</span>
+                    </div>
+                    <div class="product-card__cart-controls">
+                      <img src="assets/svgs/item-decreaser.svg" alt="decrease" class="qty-decrease" />
+                      <span class="product-card__qty">1</span>
+                      <img src="assets/svgs/item-increaser.svg" alt="increase" class="qty-increase" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img src="assets/images/popular-items-2.png" alt="Tandoori Chicken" />
+                  <span class="product-card__badge">20%</span>
+                </div>
+                <div class="product-card__details">
+                  <div class="product-card__row">
+                    <span class="product-card__name">Tandoori Chicken</span>
+                    <span class="product-card__price">₹184</span>
+                  </div>
+                  <div class="product-card__row">
+                    <div class="product-card__meta">
+                      <span class="product-card__rating">
+                        <img src="assets/svgs/rating-star.svg" alt="star" /> 4.3
+                      </span>
+                      <span class="product-card__tag">15-29 min</span>
+                    </div>
+                    <div class="product-card__add-btn">
+                      <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img src="assets/images/popular-items-3.png" alt="Chilli Chicken" />
+                  <span class="product-card__badge">50%</span>
+                </div>
+                <div class="product-card__details">
+                  <div class="product-card__row">
+                    <span class="product-card__name">Chilli Chicken</span>
+                    <span class="product-card__price">₹116</span>
+                  </div>
+                  <div class="product-card__row">
+                    <div class="product-card__meta">
+                      <span class="product-card__rating">
+                        <img src="assets/svgs/rating-star.svg" alt="star" /> 4.1
+                      </span>
+                      <span class="product-card__tag">30-40 min</span>
+                    </div>
+                    <div class="product-card__add-btn">
+                      <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- Slide 4 (repeat) -->
+            <div class="swiper-slide">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img src="assets/images/popular-items-1.png" alt="Home made pizza" />
+                </div>
+                <div class="product-card__details">
+                  <div class="product-card__row">
+                    <span class="product-card__name">Home made pizza</span>
+                    <span class="product-card__price">₹190</span>
+                  </div>
+                  <div class="product-card__row">
+                    <div class="product-card__meta">
+                      <span class="product-card__rating">
+                        <img src="assets/svgs/rating-star.svg" alt="star" /> 4.7
+                      </span>
+                      <span class="product-card__tag">50-79 min</span>
+                    </div>
+                    <div class="product-card__cart-controls">
+                      <img src="assets/svgs/item-decreaser.svg" alt="decrease" class="qty-decrease" />
+                      <span class="product-card__qty">1</span>
+                      <img src="assets/svgs/item-increaser.svg" alt="increase" class="qty-increase" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- Slide 5 (repeat) -->
+            <div class="swiper-slide">
+              <article class="product-card">
+                <div class="product-card__image">
+                  <img src="assets/images/popular-items-2.png" alt="Tandoori Chicken" />
+                </div>
+                <div class="product-card__details">
+                  <div class="product-card__row">
+                    <span class="product-card__name">Tandoori Chicken</span>
+                    <span class="product-card__price">₹184</span>
+                  </div>
+                  <div class="product-card__row">
+                    <div class="product-card__meta">
+                      <span class="product-card__rating">
+                        <img src="assets/svgs/rating-star.svg" alt="star" /> 4.3
+                      </span>
+                      <span class="product-card__tag">15-29 min</span>
+                    </div>
+                    <div class="product-card__add-btn">
+                      <img src="assets/svgs/item-increaser.svg" alt="Add to cart" />
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+
+          </div>
+        </div>
+        <button class="carousel-arrow carousel-arrow--next" id="carousel-next" aria-label="Next slide">
+          <img src="assets/svgs/right-arrow.svg" alt="Next" />
+        </button>
+      </div>
+    </div>
+    <div class="kitchen__btn-wrapper">
+      <button class="btn-primary" id="btn-request-dish-old" type="button">Request a Dish</button>
+    </div>
+  </section>
+
+  <!-- ======== VIDEO SECTION ======== -->
+  <section class="video-section" id="video-section">
+    <div class="video-section__bg-band"></div>
+    <div class="video-section__inner">
+      <div class="video-section__text">
+        <h2 class="video-section__heading">We are providing best<span class="text-line">home cooked food delivery
+            service.</span></h2>
+        <p class="video-section__desc">Away from home and craving the tasty homemade recipes?<span
+            class="text-line">Choose from a
+            selection of our delicious home cooked dishes</span></p>
+      </div>
+      <div class="video-section__player" id="video-player">
+        <video id="food-video" preload="metadata">
+          <source src="assets/videos/food-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-section__overlay" id="video-overlay">
+          <div class="video-section__play-btn">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT US ======== -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__form-side">
+        <div>
+          <h2 class="contact__heading">Do you have a question<span class="text-line">or want to become a seller?</span>
+          </h2>
+          <p class="contact__sub">Fill this form and our manager will contact you next 48 hours.</p>
+        </div>
+        <form class="contact__form" id="contact-form">
+          <div class="contact__row">
+            <input type="text" class="contact__input" placeholder="Your Name" id="contact-name" />
+            <input type="email" class="contact__input" placeholder="Your e-mail" id="contact-email" />
+          </div>
+          <textarea class="contact__textarea" placeholder="Your message" id="contact-message"></textarea>
+          <button type="submit" class="contact__submit">Submit</button>
+        </form>
+      </div>
+      <div class="contact__illustration">
+        <img src="assets/svgs/food-delivery.svg" alt="Food delivery illustration" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer" id="footer">
+    <div class="footer__inner">
+      <div class="footer__menu">
+        <a href="#" class="footer__logo">
+          <img src="assets/svgs/jtheats.svg" alt="JTGeats" />
+        </a>
+        <div class="footer__links">
+          <a href="#hero">Home</a>
+          <a href="#kitchen">About</a>
+          <a href="#popular">Menu</a>
+          <a href="#video-section">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__socials">
+          <a href="#"><img src="assets/svgs/facebook.svg" alt="Facebook" /></a>
+          <a href="#"><img src="assets/svgs/instragram.svg" alt="Instagram" /></a>
+        </div>
+      </div>
+      <div class="footer__divider"></div>
+    </div>
+  </footer>
+
+  <!-- ======== REQUEST DISH MODAL ======== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="request-modal">
+      <h3 class="modal__title">Request a Dish</h3>
+      <p class="modal__subtitle">Can't find what you're looking for? Tell us what you'd love to eat and we'll try our
+        best to get it for you!</p>
+      <form class="modal__form" id="modal-form">
+        <div class="modal__field">
+          <label for="modal-dish">Dish Name</label>
+          <input type="text" id="modal-dish" placeholder="e.g. Paneer Tikka Masala" />
+        </div>
+        <div class="modal__field">
+          <label for="modal-name">Your Name</label>
+          <input type="text" id="modal-name" placeholder="Enter your name" />
+        </div>
+        <div class="modal__field">
+          <label for="modal-email">Email</label>
+          <input type="email" id="modal-email" placeholder="Enter your email" />
+        </div>
+        <div class="modal__field">
+          <label for="modal-notes">Additional Notes</label>
+          <textarea id="modal-notes" placeholder="Any preferences or details..."></textarea>
+        </div>
+        <div class="modal__actions">
+          <button type="button" class="modal__btn-cancel" id="modal-cancel">Cancel</button>
+          <button type="submit" class="modal__btn-submit" id="modal-submit">Submit Request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="assets/vendor/swiper-bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

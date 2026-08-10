@@ -1,31 +1,22 @@
-# Simon Says Game
+# JOSH Questions & Solutions
 
-A responsive implementation of the classic **Simon Says Memory Game**, developed as part of the **Josh Technology Group (JTG) Frontend Assessment**.
+A curated collection of **JOSH interview coding questions**, aptitude problems, logical puzzles, and Java solutions prepared during placement preparation.
 
-## 🎮 Demo
 
-The game challenges players to memorize and repeat increasingly complex color sequences.
+## 📌 Purpose
 
-## 📂 Repository Structure
+This repository is intended to help students preparing for:
 
-```
-.
-├── index.html
-├── style.css
-├── script.js
-├── demo.mov
-├── JTG R1 - Simon Says Assignment.pdf
-└── README.md
-```
+- Josh Placement Drive
+- Product-Based Company Interviews
+- Coding Assessments
+- Technical Interviews
 
-## 📌 Assignment Objectives
+## ⭐ Contributions
 
-- Build the Simon Says game from scratch
-- Follow the official JTG assignment requirements
-- Maintain clean and modular code
-- Create a responsive user interface
-- Implement proper game logic
+Feel free to fork the repository and improve existing solutions or add new interview questions.
 
+---
 
 # 👨‍💻 Author
 
@@ -43,4 +34,4 @@ The game challenges players to memorize and repeat increasingly complex color se
 
 ## ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you find this repository helpful, consider giving it a ⭐ on GitHub.
