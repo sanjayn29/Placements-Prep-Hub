@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simon Says Game</title>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simon Says</h1>
+            <div class="gameboard">
+                <div id="red" onclick="playerMove(1)"></div>
+                <div id="green" onclick="playerMove(2)"></div>
+                <div id="blue" onclick="playerMove(3)"></div>
+                <div id="yellow" onclick="playerMove(4)"></div>
+            </div>
+            <button id="start" onclick="startgame()">Start Game</button>
+            <button id="reset" onclick="resetgame()">Reset</button> 
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
