@@ -1,10 +1,10 @@
-# Netgear Interview Preparation
+# Interview Preparation Notes
 
-A collection of **Netgear interview materials**, technical round questions, interview topics, and preparation resources.
+A collection of **interview materials**, technical round questions, interview topics, and preparation resources.
 
 ## 🚀 Purpose
 
-This repository serves as a quick revision guide for students preparing for Netgear technical interviews.
+This repository serves as a quick revision guide for students preparing for technical interviews.
 ---
 
 # 👨‍💻 Author
