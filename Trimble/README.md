@@ -1,13 +1,13 @@
-# EY Questions & Solutions
+# Mistral Soluations Questions & Solutions
 
-A curated collection of **EY interview coding questions**, aptitude problems, logical puzzles, and Java solutions prepared during placement preparation.
+A curated collection of **Mistral Soluations interview coding questions**, aptitude problems, logical puzzles, and Java solutions prepared during placement preparation.
 
 
 ## 📌 Purpose
 
 This repository is intended to help students preparing for:
 
-- EY Placement Drive
+- Mistral Soluations Placement Drive
 - Product-Based Company Interviews
 - Coding Assessments
 - Technical Interviews
