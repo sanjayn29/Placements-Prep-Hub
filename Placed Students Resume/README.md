@@ -1,12 +1,6 @@
-
-
 # � Placed Students Resume
 
 This directory contains a comprehensive collection of resumes from **successfully placed students**. These resumes showcase the professional profiles, skills, experiences, and accomplishments of students who have secured positions in top companies.
-
-## 📑 Directory Structure
-
-The resumes are organized by **graduation batch** for easy navigation:
 
 ### 📂 Batches
 
@@ -23,26 +17,12 @@ This collection serves as a valuable resource for:
 - **Recruiters** - Review profiles of talented placed candidates
 - **Interview Preparation** - Study the background and qualifications of successfully placed students
 
-## 💡 Key Features
-
-✅ Real-world resume examples from placed students  
-✅ Organized by graduation batch  
-✅ Demonstrates successful career progression  
-✅ Showcases diverse skill sets and experiences  
-✅ Reference templates for resume building
-
 ## 📝 How to Use
 
 1. Browse the relevant batch folder (2022-2026 or 2023-2027)
 2. Review resume formats, structure, and content
 3. Identify key sections and best practices
 4. Adapt examples to create your own professional resume
-
-## 🤝 Contributing
-
-If you have placed student resumes to add to this collection, feel free to contribute!
-
----
 
 ## 👨‍💻 Author
 
