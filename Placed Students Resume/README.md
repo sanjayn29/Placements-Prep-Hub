@@ -1,9 +1,10 @@
-# � Placed Students Resume
+#   Placed Students Resume
 
 This directory contains a comprehensive collection of resumes from **successfully placed students**. These resumes showcase the professional profiles, skills, experiences, and accomplishments of students who have secured positions in top companies.
 
 ### 📂 Batches
 
+- **`2021-2025/`** - Resumes of students graduating in 2026 who are already placed
 - **`2022-2026/`** - Resumes of students graduating in 2026 who are already placed
 - **`2023-2027/`** - Resumes of students graduating in 2027 who are already placed
 
