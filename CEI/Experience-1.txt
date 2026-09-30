@@ -1,0 +1,35 @@
+CEI INDIA
+
+ROUND 1
+Aps,code snippets,technical question from js,dbms,algorithms time complexity 
+then 7 programming question in that only 4 is enough
+
+Round 2 
+Technical 1
+How do you attract web users?
+3 tables join query
+Agile 
+Application of a data structure is said and asked for which data structure 
+If 10 pages are used how would you make only selected page to be rendered  ans lazy loading
+A url is given then asked for it parts 
+Get and post method 
+Project explanation 
+Abstraction code implementation 
+Why java doesn't support multiple inheritance 
+Process vs thread
+Priority scheduling working a d real life example 
+Application of binary search 
+
+Round 3 
+Technical 2
+Scenario based question on Technical topics 
+About fav subject and worst fav subject 
+
+Round 4
+Hr
+
+Overall everyone was friendly and open up and  speaking it must needed...if  
+you show up what you know well then they will sure hire you..
+
+
+All the best guys..✨🤝
